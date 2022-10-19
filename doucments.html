@@ -505,7 +505,7 @@
         </div>
       </header>
       <main class="h-full pb-16 overflow-y-auto">
-        <div class="container px-6 mx-auto grid">
+        <div class="container w-full mx-auto grid">
           <h2 class="my-6 text-2xl font-semibold text-gray-700 dark:text-gray-200">
             Company Documents
           </h2>
@@ -540,39 +540,9 @@
           </div>
           
           <div id="myTabContent">
-            <div class="p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="profile" role="tabpanel"
+            <div class="bg-gray-50 rounded-lg dark:bg-gray-800" id="profile" role="tabpanel"
               aria-labelledby="profile-tab">
-              <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
-                  class="font-medium text-gray-800 dark:text-white">Profile tab's associated content</strong>. Clicking
-                another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-                control the content visibility and styling.</p>
-            </div>
-            <div class="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="dashboard" role="tabpanel"
-              aria-labelledby="dashboard-tab">
-              <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
-                  class="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</strong>.
-                Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps
-                classes to control the content visibility and styling.</p>
-            </div>
-            <div class="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="settings" role="tabpanel"
-              aria-labelledby="settings-tab">
-              <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
-                  class="font-medium text-gray-800 dark:text-white">Settings tab's associated content</strong>. Clicking
-                another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-                control the content visibility and styling.</p>
-            </div>
-            <div class="hidden p-4 bg-gray-50 rounded-lg dark:bg-gray-800" id="contacts" role="tabpanel"
-              aria-labelledby="contacts-tab">
-              <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
-                  class="font-medium text-gray-800 dark:text-white">Contacts tab's associated content</strong>. Clicking
-                another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to
-                control the content visibility and styling.</p>
-            </div>
-          </div>
-
-
-          <!-- <div id="myTabContent">
-            <div class="w-full overflow-hidden rounded-lg shadow-xs">
+              <div class="w-full overflow-hidden rounded-lg shadow-xs">
               <div class="w-full overflow-x-auto">
                 <table class="w-full whitespace-no-wrap">
                   <thead>
@@ -682,7 +652,15 @@
                 </span>
               </div>
             </div>
-          </div> -->
+            </div>
+            <div class="hidden bg-gray-50 rounded-lg dark:bg-gray-800" id="dashboard" role="tabpanel"
+              aria-labelledby="dashboard-tab">
+              <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong
+                  class="font-medium text-gray-800 dark:text-white">Dashboard tab's associated content</strong>.
+                Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps
+                classes to control the content visibility and styling.</p>
+            </div>
+          </div>
         </div>
       </main>
     </div>
